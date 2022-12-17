@@ -1,0 +1,22 @@
+* {
+    background-color: #F8EDE3;
+    
+}
+
+header, footer {
+    background-color: #85586F;
+    margin: 20%;
+    color: #F8EDE3 ;
+}
+#about {
+    margin: 20%;
+
+}
+#work {
+    background-color: DFD3C3;
+    margin: 40%;
+}
+#topNav {
+    display: flex;
+    justify-content: flex-end;
+}
