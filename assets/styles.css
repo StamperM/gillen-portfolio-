@@ -1,42 +1,81 @@
-body {
-    background-color: #F8EDE3;
-    display: flex;
-    flex-direction: column;
-  
+* {
+    margin: 0;
+    padding: 0;
 }
-
+/* Footer and Header */
 header, footer {
     background-color: #85586F;
-    color: #F8EDE3 ;
+    color: #F8EDE3;
 }
-header{
-    height: 200px;
-}
-#about {
-    display: flex;
-    align-items: flex-end;
-    width: 400px;
+header {
+    /* background-image: url(./images/background.jpg); */
+    height: 100px;
     
+}
+.belowHeader{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+}
 
+#about {
+    background-color: #F8EDE3;
+    padding: 200px;   
 }
 #work {
     background-color: #DFD3C3;
     display: flex;
-    align-items: flex-end;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+   padding: 60px;
+   
    
 }
-#topNav {
+h1 {
+    background-color: #85586F;
+    padding: 5px;
+    
+}
+nav{
+    background-color: #85586F;
     display: flex;
     justify-content: flex-end;
+     align-items: flex-end;
+    padding-bottom: 5px;
 }
+ nav a {
+
+    color: #F8EDE3;
+    text-decoration: none;
+    padding: 20px;
+    
+    
+}
+.belowHeader {
+    width: 100%;
+    border: none;
+    margin-inline: 0;
+    border-radius: 0%;
+}
+/* Main should be row wrap to allow the two section to be side by side */
 main {
     display: flex;
-    flex-direction: column;
-}
-
-img {
     
+
+}
+/* to format the left side independently of main added an id */
+.right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+img {
+   border-radius: 8px;
+    border: 2px  solid #85586F;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
     
 }
 .projectOne {
@@ -44,13 +83,30 @@ img {
 }
 footer {
    display:flex;
-   height: 150px;
+  padding: 20px;
 }
-aside{
-    background-color: #85586F;
+
+aside {
     display: flex;
-    flex-flow: column wrap;
-    border-right: #85586F;
-    justify-content: center;
-    
+    flex-direction: column;
+    justify-content: space-around;
+    border-right:  2px solid #85586F;
+    background-color: #F8EDE3;
+    align-items: center;
+    padding: 30px;
+
+
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+address a {
+    color: #DFD3C3;
+    padding: 25px;
+}
+.projectOne {
+    width: 800px;
+    height: 300px;
 }
