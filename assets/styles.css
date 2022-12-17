@@ -2,21 +2,51 @@
     background-color: #F8EDE3;
     
 }
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
 
 header, footer {
     background-color: #85586F;
-    margin: 20%;
+    margin: 10%;
     color: #F8EDE3 ;
 }
+header {
+    display: flex;
+
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    display: flex;
+}
 #about {
-    margin: 20%;
+    display: flex;
+    flex-direction: row;
+   
+    background-color: #DFD3C3;
 
 }
 #work {
+    display: flex;
+    flex-flow: column wrap;
     background-color: DFD3C3;
-    margin: 40%;
+    
 }
 #topNav {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: flex-end;
+    background-color: #85586F;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: ;
 }
