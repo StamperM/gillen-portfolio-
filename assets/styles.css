@@ -1,56 +1,109 @@
-body {
-    background-color: #F8EDE3;
+/* header needs name to the left side, Picture middle, nav on the right */
+header , footer {
     display: flex;
-    flex-direction: column;
-  
-}
-
-header, footer {
+    justify-content: space-between;
     background-color: #85586F;
-    color: #F8EDE3 ;
+    color: #F8EDE3;
 }
-header{
-    height: 200px;
-}
-#about {
-    display: flex;
-    align-items: flex-end;
-    width: 400px;
-    
+header img {
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 2px 2px #b9849f; 
 
+}
+h1 {
+    padding: 5px 10px 0  0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav a {
+
+    color: #F8EDE3;
+    text-decoration: none;
+    padding: 20px; 
+} 
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F8EDE3;
+}
+h2 {
+    display: flex;
+    justify-content: space-between;
+    border-right:  2px solid #85586F;
+    background-color: #F8EDE3; 
+    padding: 30px;
+    width: 150px;
+    height: 150px;
+}
+#about, {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 200px; 
+}
+
+#about p {
+    
+    padding: 2%;
+} 
+
+ #about {
+    background-color: #F8EDE3;
+      
 }
 #work {
     background-color: #DFD3C3;
     display: flex;
-    align-items: flex-end;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+   padding: 60px;
+   
    
 }
-#topNav {
-    display: flex;
-    justify-content: flex-end;
-}
-main {
-    display: flex;
-    flex-direction: column;
+h1 {
+    background-color: #85586F;
+    padding: 5px;
+    
 }
 
 img {
-    
+   border-radius: 8px;
+    border: 2px  solid #85586F;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
     
 }
-.projectOne {
-    display: inline;
+.projectOne { */ */
+     display: inline;
 }
 footer {
    display:flex;
-   height: 150px;
+  padding: 20px;
+  background-color: #F8EDE3; 
+  color:#85586F;
 }
-aside{
-    background-color: #85586F;
-    display: flex;
-    flex-flow: column wrap;
-    border-right: #85586F;
-    justify-content: center;
+
+aside {
     
+
+
 }
+
+
+address a {
+    color:#85586F;
+    padding: 25px;
+}
+.projectOne {
+    width: 800px;
+    height: 300px;  
