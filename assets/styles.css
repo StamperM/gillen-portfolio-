@@ -1,26 +1,63 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-/* Footer and Header */
-header, footer {
+/* header needs name to the left side, Picture middle, nav on the right */
+header , footer {
+    display: flex;
+    justify-content: space-between;
     background-color: #85586F;
     color: #F8EDE3;
 }
-header {
-    /* background-image: url(./images/background.jpg); */
-    height: 100px;
-    
+header img {
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 2px 2px #b9849f; 
+
 }
-.belowHeader{
-    margin: 0;
-    padding: 0;
-    height: 150px;
+h1 {
+    padding: 5px 10px 0  0;
 }
 
-#about {
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav a {
+
+    color: #F8EDE3;
+    text-decoration: none;
+    padding: 20px; 
+} 
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: #F8EDE3;
-    padding: 200px;   
+}
+h2 {
+    display: flex;
+    justify-content: space-between;
+    border-right:  2px solid #85586F;
+    background-color: #F8EDE3; 
+    padding: 30px;
+    width: 150px;
+    height: 150px;
+}
+#about, {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 200px; 
+}
+
+#about p {
+    
+    padding: 2%;
+} 
+
+ #about {
+    background-color: #F8EDE3;
+      
 }
 #work {
     background-color: #DFD3C3;
@@ -37,39 +74,7 @@ h1 {
     padding: 5px;
     
 }
-nav{
-    background-color: #85586F;
-    display: flex;
-    justify-content: flex-end;
-     align-items: flex-end;
-    padding-bottom: 5px;
-}
- nav a {
 
-    color: #F8EDE3;
-    text-decoration: none;
-    padding: 20px;
-    
-    
-}
-.belowHeader {
-    width: 100%;
-    border: none;
-    margin-inline: 0;
-    border-radius: 0%;
-}
-/* Main should be row wrap to allow the two section to be side by side */
-main {
-    display: flex;
-    
-
-}
-/* to format the left side independently of main added an id */
-.right {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 img {
    border-radius: 8px;
     border: 2px  solid #85586F;
@@ -78,35 +83,27 @@ img {
     height: 200px;
     
 }
-.projectOne {
-    display: inline;
+.projectOne { */ */
+     display: inline;
 }
 footer {
    display:flex;
   padding: 20px;
+  background-color: #F8EDE3; 
+  color:#85586F;
 }
 
 aside {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    border-right:  2px solid #85586F;
-    background-color: #F8EDE3;
-    align-items: center;
-    padding: 30px;
+    
 
 
 }
-footer {
-    display: flex;
-    justify-content: space-around;
-}
+
 
 address a {
-    color: #DFD3C3;
+    color:#85586F;
     padding: 25px;
 }
 .projectOne {
     width: 800px;
-    height: 300px;
-}
+    height: 300px;  
