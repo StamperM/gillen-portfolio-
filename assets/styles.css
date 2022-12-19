@@ -1,13 +1,22 @@
 /* header needs name to the left side, Picture middle, nav on the right */
 header , footer {
     display: flex;
+    justify-content: space-between; 
+}
+
+body {
+    background-color: #F8EDE3;
+}
+header{
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: #85586F;
     color: #F8EDE3;
+
 }
 header img {
-    width: fit-content;
-    height: fit-content;
+    width: min-content;
+    height: min-content;
     box-shadow: 2px 2px #b9849f; 
 
 }
@@ -17,7 +26,8 @@ h1 {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: flex-end;
     align-items: flex-end;
 }
 
@@ -28,51 +38,40 @@ nav a {
     padding: 20px; 
 } 
 
+.lowerNav {
+    display: flex;
+    background:  #b9849f;
+    justify-content: flex-end;
+    color: #F8EDE3;
+    font-weight: 700;
+    padding: 5px;
+}
 main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #F8EDE3;
 }
+
+
 h2 {
     display: flex;
     justify-content: space-between;
-    border-right:  2px solid #85586F;
-    background-color: #F8EDE3; 
     padding: 30px;
-    width: 150px;
-    height: 150px;
+    width: 150px;  
 }
-#about, {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 200px; 
-}
-
-#about p {
     
-    padding: 2%;
-} 
-
- #about {
-    background-color: #F8EDE3;
-      
-}
 #work {
-    background-color: #DFD3C3;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
    padding: 60px;
-   
-   
+  
 }
 h1 {
     background-color: #85586F;
-    padding: 5px;
-    
+    padding: 5px; 
 }
 
 img {
@@ -83,20 +82,16 @@ img {
     height: 200px;
     
 }
-.projectOne { */ */
-     display: inline;
-}
+
 footer {
    display:flex;
   padding: 20px;
-  background-color: #F8EDE3; 
   color:#85586F;
 }
 
-aside {
-    
-
-
+.about {
+    border-left: 4px solid #85586F;
+    padding: 40px;
 }
 
 
@@ -107,3 +102,11 @@ address a {
 .projectOne {
     width: 800px;
     height: 300px;  
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
