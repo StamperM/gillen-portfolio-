@@ -8,40 +8,39 @@
     <title>Melissa Gillen Portfolio</title>
 </head>
 <body>
+    <!-- Header will be it's own container, flex direction should be row, content should be space between.  -->
     <header>
-        <section>
         <H1>Melissa Gillen</H1>
         <img src="./assets/images/Melissa (1).jpg" alt="Picture of Melissa Gillen">
+        <!-- Nav will be a container, flex direction row, evenly spaced -->
         <nav>
             <a href="#about">About</a>
             <a href="#work">work</a>
             <a href="#contact">Contact</a>
             <a href="https://docs.google.com/document/d/e/2PACX-1vSmTgZCFbBjjUHMnAArKGVIF2SHevINYSVu68lI09pGnoA5COLz4-mHk6GS7Bl_Bm8UcCTyK_a-Qq3P/pub">Resume</a>
-        </nav>
-    
-        <Section class="lowerNav">
+        </nav> 
             <H3>Just winging it!</H3>
-        </Section> 
-    </section>
     </header>
     
-    
-   <main>  <!-- container -->
-          <section id="about"> <!--row -->
-            <h2>About</h2> <!-- column -->
+    <!-- main will be flex direction column and everything should be centered. -->
+   <main> 
+    <!-- about will be a row H2 should have a flex-basis smaller than p. -->
+          <section id="about"> 
+            <h2>About</h2> 
             <p>For the past five years I have been working with Software engineers 
                 in the role of a project manager. I am good with working with others
                 and have been the bridge between engineers and business. During this 
                 time I have built a great great relationships and have helped improve 
                 lines of communication and put several process in place to help get better 
                 estimates and help my teams meet their deadlines. 
-             </p><!--column  -->
+             </p>
             </section>
-
-         <section id="work">  <!-- row2 -->
-            <h2 id="workHeader">Work</h2> <!--column -->
+<!-- work will be a row row H2 should have a flex-basis smaller than p. -->
+         <section id="work">  
+            <h2>Work</h2>
+            <!-- workContent row wrapped with work item 1 having a flex-basis of 100% and all others 50% -->
             <section id="workContent">
-            <a href="https://stamperm.github.io/landing-page/">
+                <a href="https://stamperm.github.io/landing-page/">
             <img src="./assets/images/newHeights.png" class="projectOne"  alt="picture of New Height's landing page">
         </a>
         <a href="https://stamperm.github.io/odin-recipes/">  
@@ -51,8 +50,8 @@
     <a href="https://stamperm.github.io/odin-recipes/"> <img src="./assets/images/ginerbreadLand.png" alt="ginerbread house">
             </a>
         
-           <a href="">
-            <img src="./assets/images/christmas.png" alt="decorated cookie cake">
+           <a href="https://github.com/StamperM"> <!-- I don't have an actual project for this to link so just linked to github. -->
+            <img src="./assets/images/mamaMCakes.png" alt="decorated cookie cake">
         </a>
     
         <a href="https://stamperm.github.io/prework-study-guide/">
@@ -60,12 +59,16 @@
         </a>
     </section>
     </section>
+<!-- contact section row H2 should have a flex-basis smaller than p. -->
          <section id="contact"> <!--main column -->
             <h2 id="contactHeader">Contact</h2> 
-            <address>
+            <!-- address should be display flex and evenly spaced, centered -->
+            <address id ="contactContent">
                 <a href="mailto:melissagillen3@gmail.com">melissagillen3@gmail.com</a>
                 <a href="tel:3522621985">352-262-1985</a>
                 <a href="https://github.com/StamperM">StamperM</a>
+                <a href="https://twitter.com/">Twitter</a>
+                <a href="https://www.spotify.com/">Spotify</a>
             </address>
         </section>
     </section>
