@@ -90,7 +90,6 @@
         flex-direction:column;
         justify-content: center;
         align-items: center;   
-        /* padding: 20px; */
         flex-grow: 0;
         flex-shrink: 0;
        
@@ -104,13 +103,17 @@
        
     }
     #projectOne {
-        width: 100%;
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        
+        
        
     }
     .workImg {
         height: 200px;
         width: 400px;
-        flex-basis: 45%;
         border: 2px solid #85586F;
         border-radius: 4px;
         flex-grow: 0;
@@ -166,122 +169,11 @@
     
 }
 
-/* 
-   header {
-    display: flex;
-
-}
-
-header > section {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #85586F;
-    color: #F8EDE3;
-    flex-grow: 1;
-    flex-shrink: 1;
-    justify-content: space-between;
-}
-h1 {
-    flex-basis: 30%;
-}
-
-header > div {
-    display: flex;
-    flex-basis: 33.3;
-    flex-grow: 0;
-    flex-shrink: 0;
-    
-}
 
  
 
-nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-.lowerNav {
-    flex-basis: 100%;
-    background-color: #91476c;
-    
-}
-body {
-    background-color: #F8EDE3;
-}
-
-
-.mainRow {
-    display: flex;
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-wrap: wrap;
-}
-.mainColumn {
-    text-align: center;
-    flex-basis: 30%;
-    flex-grow: 0;
-    flex-shrink: 0;
-    
-    
-}
-#about, #work, #contact {
-    display: flex;
-}
-.aboutRow {
-    display: flex;
-}
-#about > .aboutRow > h2, #contactHeader {
-    flex-basis: 30%;
-    
-}
-#about > p, #workContent, #contactContent {
-    
-    flex-basis: 80%;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-h2 {
-    padding: 5%;
-    border-right: 3px solid #91476c;
-    margin: 30%;
-    flex-basis: 30%;
-}
-
-#workRow, #contact{
-    display: flex;
-    justify-content: flex-start
-    
-
- }
  
- section > a {
-    flex-basis: 50%;
-}
-img {
-    height: 200px;
-    flex-basis: 50%;
-    width: 250px;
-    border: 2px solid #85586F;
-    border-radius: 4px;
-  }
-.projectOne{
-    flex-basis: 100%;
-   
-}
-div{
-    display:flex
-}
-#contactHeader{
-    display: flex;
-    
-}
-address{
-    display: flex;
-}
-address a {
-    color:#85586F;
-  
-} */
+
+
+
+
